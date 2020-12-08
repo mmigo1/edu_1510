@@ -32,7 +32,7 @@ if (button!=undefined){
     document.cookie = "site="+site;
     let timerId = setInterval(()=>{
         yandexInput.value = yandexInput.value + word [i];
-        i++;
+        i++; 
         if(i== word.length){
             clearInterval(timerId);
             button.click();
